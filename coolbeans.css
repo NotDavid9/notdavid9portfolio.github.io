@@ -11,7 +11,7 @@
     image-rendering: pixelated;
 }
 
-.iframe {
+iframe {
   display:block;
   margin:auto;
   position: fixed; /* Sit on top of the page content */
