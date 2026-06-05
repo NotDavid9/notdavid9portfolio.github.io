@@ -1,0 +1,63 @@
+/*Style CSS Stuff*/
+
+    .imgcntr {
+        display:block;
+        margin:auto;
+        top: 25px;
+    }
+.img100height{height:1000px;}
+
+.imgpxl {
+    image-rendering: pixelated;
+}
+
+iframe {
+  display:block;
+  margin:auto;
+  position: fixed; /* Sit on top of the page content */
+  ; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+.piss{
+  margin-top: 29px;
+
+}
+.bg img{
+ margin-top: auto;
+}
+
+.ImgRainbow{
+    animation: ImgChangeColor 1s infinite;
+    /*filter: hue-rotate(90deg);*/
+}
+ @keyframes ImgChangeColor {
+    0% {filter: hue-rotate(0deg);}
+    25% {filter: hue-rotate(90deg);}
+    50% {filter:hue-rotate(180deg);}
+    75% {filter: hue-rotate(270deg);}
+    100% {filter:hue-rotate(360deg);}
+ }
+
+.Rainbow{
+    animation:changeColor 1s infinite 
+    }
+    @keyframes changeColor {
+        0%   { color: rgb(255, 0, 0); }
+        16.7% { color: rgb(255, 255, 0); }
+        38.3% { color: rgb(0, 255, 0); }
+        50%  { color: rgb(0, 255, 255); }
+        66.7% { color: rgb(0, 0, 255); }
+        83.3% { color: rgb(255, 0, 255); }
+        100% { color: rgb(255, 0, 0); }
+    }
+
+.absolute {position:absolute}
+
+.relative {position:relative;}
+
+.btnclr {background:none; border:none;}
